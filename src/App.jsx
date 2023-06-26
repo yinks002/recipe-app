@@ -35,7 +35,7 @@ const App=()=> {
   const handleSubmit = (e)=>{
     e.preventDefault();
     SearchRecipes()
-  }
+  ,[]}
 
   return (
 
