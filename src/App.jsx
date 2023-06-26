@@ -31,11 +31,11 @@ const App=()=> {
   }
   useEffect(()=>{
     SearchRecipes();
-  });
+  },[]);
   const handleSubmit = (e)=>{
     e.preventDefault();
     SearchRecipes()
-  ,[]}
+  }
 
   return (
 
